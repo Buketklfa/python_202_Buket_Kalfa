@@ -52,7 +52,8 @@ Ayrıca, proje kapsamında **Python OOP prensipleri**, **JSON veri saklama**, **
 ## 📂 Proje Yapısı
 
 ### Aşama 1 (Terminal)
-```final-project-first-stage/
+```
+final-project-first-stage/
 │
 ├── book.py # Book sınıfı
 ├── library.py # Library sınıfı
@@ -65,7 +66,8 @@ Ayrıca, proje kapsamında **Python OOP prensipleri**, **JSON veri saklama**, **
 
 
 ### Aşama 2 (API ile veri zenginleştirme)
-```final-project-second-stage/
+```
+final-project-second-stage/
 ├── book.py
 ├── library.py # OpenLibrary API entegrasyonu
 ├── main.py
@@ -79,7 +81,8 @@ Ayrıca, proje kapsamında **Python OOP prensipleri**, **JSON veri saklama**, **
 ```
 
 ### Aşama 3 (FastAPI)
-```final-project-third-stage/
+```
+final-project-third-stage/
 ├── api.py # FastAPI uygulaması
 ├── book.py
 ├── library.py
