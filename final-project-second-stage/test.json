@@ -1,0 +1,18 @@
+[
+  {
+    "title": "The Pragmatic Programmer",
+    "isbn": "9780201616224"
+  },
+  {
+    "title": "Clean Code",
+    "isbn": "9780132350884"
+  },
+  {
+    "title": "Python Crash Course",
+    "isbn": "9781593279288"
+  },
+  {
+    "title": "Unknown Book",
+    "isbn": "0000000000000"
+  }
+]
