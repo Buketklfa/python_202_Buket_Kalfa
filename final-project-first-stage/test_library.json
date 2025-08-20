@@ -1,7 +1,12 @@
 [
-    {
-        "title": "Test Kitap",
-        "author": "Test Yazar",
-        "isbn": "1234567890"
-    }
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "isbn": "9780099590088"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "9780451524935"
+  }
 ]
