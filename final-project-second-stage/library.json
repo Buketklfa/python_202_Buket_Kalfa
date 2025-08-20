@@ -1,23 +1,12 @@
 [
   {
-    "title": "The Pragmatic Programmer",
-    "author": "Andrew Hunt, David Thomas",
-    "isbn": "9780201616224",
-    "publisher": "Addison-Wesley",
-    "year": 1999
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "isbn": "9780140328721"
   },
   {
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "isbn": "9780132350884",
-    "publisher": "Prentice Hall",
-    "year": 2008
-  },
-  {
-    "title": "Python Crash Course",
-    "author": "Eric Matthes",
-    "isbn": "9781593279288",
-    "publisher": "No Starch Press",
-    "year": 2019
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "9780451524935"
   }
 ]
