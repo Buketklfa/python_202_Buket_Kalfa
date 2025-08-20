@@ -1,0 +1,7 @@
+{
+  "title": "Mock Kitap",
+  "authors": [
+    { "name": "Mock Yazar" }
+  ],
+  "isbn": "9999999999999"
+}
