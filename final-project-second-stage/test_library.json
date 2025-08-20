@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Test Kitap",
+    "author": "Test Yazar",
+    "isbn": "1111111111"
+  },
+  {
+    "title": "Silinecek Kitap",
+    "author": "Yazar",
+    "isbn": "2222222222"
+  }
+]
