@@ -1,0 +1,17 @@
+from library import Library, Book
+
+def test_add_and_find_book():
+    lib = Library("test_library.json")
+    book = Book("Test Başlık", "Test Yazar", "1234567890")
+    lib.add_book(book)
+    found = lib.find_book("1234567890")
+    assert found is not None
+    assert found.title == "Test Başlık"
+    lib.remove_book("1234567890")
+
+def test_remove_book():
+    lib = Library("test_library.json")
+    book = Book("Silinecek Kitap", "Yazar", "9999999999")
+    lib.add_book(book)
+    lib.remove_book("9999999999")
+    assert lib.find_book("9999999999") is None
