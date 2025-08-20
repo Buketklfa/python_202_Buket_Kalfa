@@ -1,0 +1,23 @@
+[
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "isbn": "9780201616224",
+    "publisher": "Addison-Wesley",
+    "year": 1999
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "9780132350884",
+    "publisher": "Prentice Hall",
+    "year": 2008
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "isbn": "9781593279288",
+    "publisher": "No Starch Press",
+    "year": 2019
+  }
+]
