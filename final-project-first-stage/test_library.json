@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "title": "Test Kitabı",
+    "author": "Test Yazar",
+    "isbn": "1234567890"
+  },
+  {
+    "title": "Silinecek Kitap",
+    "author": "Deneme Yazar",
+    "isbn": "0987654321"
+  }
+]
