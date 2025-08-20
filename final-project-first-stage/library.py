@@ -1,5 +1,4 @@
 import json
-import httpx
 from book import Book
 
 class Library:
@@ -31,26 +30,4 @@ class Library:
 
     def find_book(self, isbn):
         return next((book for book in self.books if book.isbn == isbn), None)
-
-    def fetch_book_info(self, isbn):
-        url = f"https://openlibrary.org/isbn/{isbn}.json"
-        try:
-            response = httpx.get(url, timeout=10)
-            if response.status_code == 200:
-                data = response.json()
-                title = data.get("title", "Bilinmeyen Başlık")
-                author = "Bilinmeyen Yazar"
-                if "authors" in data:
-                    author_key = data["authors"][0]["key"]
-                    author_response = httpx.get(f"https://openlibrary.org{author_key}.json")
-                    if author_response.status_code == 200:
-                        author_data = author_response.json()
-                        author = author_data.get("name", author)
-                return Book(title, author, isbn)
-            else:
-                print("Kitap bulunamadı.")
-                return None
-        except httpx.RequestError:
-            print("İnternet bağlantısı hatası.")
-            return None
 
