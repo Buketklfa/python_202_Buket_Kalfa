@@ -29,7 +29,7 @@ class Library:
             with open(self.filename, "r") as f:
                 data = json.load(f)
                 self.books = [Book(**item) for item in data]
-        except (FileNotFoundError, json.JSONDecodeError):
+        except FileNotFoundError:
             self.books = []
 
     def save_books(self):
